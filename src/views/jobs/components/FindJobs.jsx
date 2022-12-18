@@ -1,4 +1,4 @@
-import SearchBarGroup from './common/forms/searchBars/SearchBarGroup';
+import SearchBarGroup from '@/components/common/forms/searchBars/SearchBarGroup';
 import SearchBar from '@/components/common/forms/searchBars/SearchBar';
 import Button from '@/components/common/buttons/Button';
 

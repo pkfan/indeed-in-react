@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/indeed-in-react/static/js/main.1f3edece.js",
+    "static/js/787.ac62cf1e.chunk.js": "/indeed-in-react/static/js/787.ac62cf1e.chunk.js",
+    "static/media/paella.jpg": "/indeed-in-react/static/media/paella.04bca6ffd44aaec996c0.jpg",
+    "static/media/logo.png": "/indeed-in-react/static/media/logo.7ad2b5d444bc427dbc5d.png",
+    "index.html": "/indeed-in-react/index.html",
+    "main.1f3edece.js.map": "/indeed-in-react/static/js/main.1f3edece.js.map",
+    "787.ac62cf1e.chunk.js.map": "/indeed-in-react/static/js/787.ac62cf1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1f3edece.js"
+  ]
+}

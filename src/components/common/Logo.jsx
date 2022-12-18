@@ -5,8 +5,8 @@ function Logo() {
   return (
     <Stack direction="row" alignItems="center">
       <svg
-        width="152"
-        height="30"
+        width="122"
+        height="28"
         viewBox="0 0 75 20"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

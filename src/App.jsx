@@ -1,4 +1,3 @@
-import GridLayout from './layout/GridLayout';
 import Providers from './services/Providers';
 import IndeedLayout from './layout/IndeedLayout';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -8,9 +7,7 @@ function App() {
     <>
       <CssBaseline />
       <Providers>
-        <IndeedLayout>
-          <GridLayout></GridLayout>
-        </IndeedLayout>
+        <IndeedLayout />
       </Providers>
     </>
   );

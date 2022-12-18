@@ -28,6 +28,9 @@ function NavBar() {
         boxShadow: 'none',
         margin: '0px',
         borderBottom: `1px solid ${theme.palette.grey[300]}`,
+        '& > .MuiContainer-root': {
+          px: '16px',
+        },
       }}
     >
       <Container maxWidth={false}>

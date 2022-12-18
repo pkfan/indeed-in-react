@@ -10,17 +10,19 @@ const buttonStyle = {
   width: { xs: '100%' },
 };
 
-function Button({ children, variant, color, grid }) {
+function Button({ children, variant, color, grid, sx = {} }) {
+  const buttonSxStyle = { ...buttonStyle, ...sx };
+
   return (
     <>
       {grid ? (
         <ProvideGridItem grid={grid}>
-          <MuiButton variant={variant} color={color} sx={buttonStyle} disableRipple>
+          <MuiButton variant={variant} color={color} sx={buttonSxStyle} disableRipple>
             {children}
           </MuiButton>
         </ProvideGridItem>
       ) : (
-        <MuiButton variant={variant} color={color} sx={buttonStyle} disableRipple>
+        <MuiButton variant={variant} color={color} sx={buttonSxStyle} disableRipple>
           {children}
         </MuiButton>
       )}

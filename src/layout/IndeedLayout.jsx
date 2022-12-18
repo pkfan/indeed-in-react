@@ -1,18 +1,22 @@
 import { FullWidthContainer } from '@/components/common/containers';
 import NavBar from '@/components/common/NavBar';
+import Footer from '@/components/common/Footer';
+import HomePage from '@/views/jobs/HomePage';
 
-import FindJobs from '@/components/FindJobs';
-import { Container } from '@mui/material';
-
-function IndeedLayout({ children }) {
+function IndeedLayout() {
   return (
-    <FullWidthContainer>
-      <NavBar />
-      <Container maxWidth="lg">
-        <FindJobs />
-        {children}
-      </Container>
-    </FullWidthContainer>
+    <>
+      <FullWidthContainer>
+        <NavBar />
+      </FullWidthContainer>
+      <FullWidthContainer>
+        {/* Outlet of react router will render here */}
+        <HomePage />
+      </FullWidthContainer>
+      <FullWidthContainer>
+        <Footer />
+      </FullWidthContainer>
+    </>
   );
 }
 
