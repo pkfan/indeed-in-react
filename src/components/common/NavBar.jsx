@@ -14,7 +14,7 @@ import MessageIcon from '@mui/icons-material/Message';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import PersonIcon from '@mui/icons-material/Person';
 
-function NavBar() {
+export function NavBar() {
   const pages = ['Find Jobs', 'Company Reviews'];
 
   const theme = useTheme();

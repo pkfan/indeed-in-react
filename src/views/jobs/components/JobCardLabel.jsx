@@ -1,7 +1,7 @@
 import { Stack, IconButton, Typography } from '@mui/material';
 import { green } from '@mui/material/colors';
 
-function JobCardLabel({ StartIcon, EndIcon, textLabel }) {
+export function JobCardLabel({ StartIcon, EndIcon, textLabel }) {
   return (
     <Stack
       direction="row"

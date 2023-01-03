@@ -1,8 +1,8 @@
-import { Ul, Li } from '@/components/common/sxHtmlElements';
+import { Ul, Li } from '@/components/sxHtmlElements';
 
 const JobRequirementsStyle = { padding: 0, margin: '8px 18px', fontSize: '14px' };
 
-function JobRequirements() {
+export function JobRequirements() {
   return (
     <Ul type="circle" sx={JobRequirementsStyle}>
       <Li>High School Diploma or GED.</Li>

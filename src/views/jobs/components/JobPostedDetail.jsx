@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material';
 import { grey } from '@mui/material/colors';
 
-function JobPostedDetail() {
+export function JobPostedDetail() {
   return (
     <Typography variant="body2" sx={{ color: grey[600] }}>
       Active 2 days ago . from{' '}

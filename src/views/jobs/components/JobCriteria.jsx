@@ -4,7 +4,7 @@ import NearMeIcon from '@mui/icons-material/NearMe';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 
-function JobCriteria() {
+export function JobCriteria() {
   return (
     <Stack
       direction="row"

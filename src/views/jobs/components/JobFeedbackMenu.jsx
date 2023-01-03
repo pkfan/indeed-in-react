@@ -15,7 +15,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import NotInterestedIcon from '@mui/icons-material/NotInterested';
 import FlagIcon from '@mui/icons-material/Flag';
 
-export default function JobFeedbackMenu() {
+export function JobFeedbackMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleClick = (event) => {
@@ -79,3 +79,5 @@ export default function JobFeedbackMenu() {
     </div>
   );
 }
+
+export default JobFeedbackMenu;

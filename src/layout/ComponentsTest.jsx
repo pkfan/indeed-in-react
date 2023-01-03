@@ -1,4 +1,4 @@
-import { Section, Span } from '@/components/common/sxHtmlElements';
+import { Section, Span } from '@/components/sxHtmlElements';
 import MyApp from '@/components/materialPractice/unstyledMuiBase/MyApp';
 import SwitchWithMuiStyleSystem from '@/components/materialPractice/unstyledMuiBase/SwitchWithMuiStyleSystem';
 import { Typography, Box } from '@mui/material';

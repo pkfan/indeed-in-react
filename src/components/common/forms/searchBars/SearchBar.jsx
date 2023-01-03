@@ -2,7 +2,7 @@ import { Typography, Box, IconButton } from '@mui/material';
 import Input from '@/components/common/forms/Input';
 import ProvideGridItem from '@/components/common/grids/ProvideGridItem';
 
-function SearchBar({ icon, label }) {
+export function SearchBar({ icon, label }) {
   return (
     <ProvideGridItem grid={{ xs: 12, md: 5 }}>
       <Box sx={{ position: 'relative', display: 'flex', flexGrow: 1 }}>

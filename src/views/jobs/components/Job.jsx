@@ -1,17 +1,21 @@
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import DoneIcon from '@mui/icons-material/Done';
 
-import JobCardHeader from './JobCardHeader';
-import JobCard from './JobCard';
-import JobCardLabel from './JobCardLabel';
-import JobCriteria from './JobCriteria';
-import JobPostedDetail from './JobPostedDetail';
-import JobRequirements from './JobRequirements';
+import {
+  JobRequirements,
+  JobPostedDetail,
+  JobCriteria,
+  JobCardLabel,
+  JobCard,
+  JobCardHeader,
+} from '@/views/jobs/components';
 
-function Job() {
+export function Job({ job, currentViewJobId, setCurrentViewJobId }) {
+  const isCurrent = job.id == currentViewJobId;
+
   return (
-    <JobCard>
-      <JobCardHeader title="Full Stack Developer" company="Delve Health" location="lahore" />
+    <JobCard isCurrent={isCurrent} jobId={job.id} setCurrentViewJobId={setCurrentViewJobId}>
+      <JobCardHeader title={job.title} company={job.company} location={job.location} />
       <JobCardLabel StartIcon={BusinessCenterIcon} EndIcon={DoneIcon} textLabel="Full-time" />
       <JobCriteria />
       <JobRequirements />

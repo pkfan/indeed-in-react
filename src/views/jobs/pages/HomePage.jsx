@@ -1,9 +1,6 @@
-import { FullWidthContainer } from '@/components/common/containers';
+import { FullWidthContainer, TabNavigation, RecipeReviewCard } from '@/components/common';
 import { Container } from '@mui/material';
-import FindJobs from '@/views/jobs/components/FindJobs';
-import TabNavigation from '@/components/common/tabs/TabNavigation';
-import JobsContainer from '@/views/jobs/components/JobsContainer';
-import RecipeReviewCard from '@/components/common/Card';
+import { FindJobs, JobsContainer } from '@/views/jobs/components';
 
 const componentRenderedList = [JobsContainer, RecipeReviewCard].map((Component, index) => {
   return <Component key={index} />;

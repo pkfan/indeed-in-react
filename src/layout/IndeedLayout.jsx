@@ -1,7 +1,5 @@
-import { FullWidthContainer } from '@/components/common/containers';
-import NavBar from '@/components/common/NavBar';
-import Footer from '@/components/common/Footer';
-import HomePage from '@/views/jobs/HomePage';
+import { NavBar, Footer, FullWidthContainer } from '@/components/common';
+import HomePage from '@/views/jobs/pages/HomePage';
 
 function IndeedLayout() {
   return (

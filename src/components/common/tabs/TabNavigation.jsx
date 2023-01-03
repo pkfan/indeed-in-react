@@ -25,7 +25,7 @@ const tabStyle = {
   },
 };
 
-export default function TabNavigation({ components, tabNameList }) {
+export function TabNavigation({ components, tabNameList }) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -71,3 +71,5 @@ export default function TabNavigation({ components, tabNameList }) {
     </Box>
   );
 }
+
+export default TabNavigation;

@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 
-function Jobs({ children }) {
+export function Jobs({ children }) {
   return (
     <Box
       sx={{

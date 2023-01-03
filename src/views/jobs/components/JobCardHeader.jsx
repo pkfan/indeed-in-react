@@ -1,7 +1,7 @@
 import { Stack, Typography } from '@mui/material';
 import JobFeedbackMenu from './JobFeedbackMenu';
 
-function JobCardHeader({ title, company, location }) {
+export function JobCardHeader({ title, company, location }) {
   return (
     <Stack direction="row" justifyContent="space-between" mb={1}>
       <Stack>

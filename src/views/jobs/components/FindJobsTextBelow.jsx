@@ -1,6 +1,6 @@
 import { Typography, Link } from '@mui/material';
 
-function FindJobsTextBelow() {
+export function FindJobsTextBelow() {
   return (
     <Typography sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
       <Link sx={{ fontWeight: '600' }} href="#" underline="hover">

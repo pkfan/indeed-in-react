@@ -1,12 +1,10 @@
-import SearchBarGroup from '@/components/common/forms/searchBars/SearchBarGroup';
-import SearchBar from '@/components/common/forms/searchBars/SearchBar';
-import Button from '@/components/common/buttons/Button';
+import { SearchBarGroup, SearchBar, Button } from '@/components/common';
 
 import SearchIcon from '@mui/icons-material/Search';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FindJobsTextBelow from './FindJobsTextBelow';
 
-function FindJobs() {
+export function FindJobs() {
   return (
     <>
       <SearchBarGroup>

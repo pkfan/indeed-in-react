@@ -1,5 +1,5 @@
 import { Button as MuiButton } from '@mui/material';
-import ProvideGridItem from '../grids/ProvideGridItem';
+import ProvideGridItem from '@/components/common/grids/ProvideGridItem';
 
 const buttonStyle = {
   padding: '11px 18px',
@@ -8,6 +8,7 @@ const buttonStyle = {
   fontWeight: '700',
   display: 'flex',
   width: { xs: '100%' },
+  maxWidth: { md: 'max-content' },
 };
 
 function Button({ children, variant, color, grid, sx = {} }) {

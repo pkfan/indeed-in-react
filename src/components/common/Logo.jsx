@@ -1,7 +1,7 @@
 import { Stack } from '@mui/material';
 import logoPng from '@/assets/images/logo.png';
 
-function Logo() {
+export function Logo() {
   return (
     <Stack direction="row" alignItems="center">
       <svg
