@@ -4,4 +4,4 @@ yarn install
 
 yarn start
 
-yarn json-fake-server (for fake json data)
+yarn json-fake-server (to start local server for fake json data)
